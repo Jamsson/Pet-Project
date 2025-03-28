@@ -105,7 +105,7 @@ const Login = () => {
                                 border: "none",
                                 borderRadius: "0.375rem",
                                 outline: "none",
-                                backgroundColor: "#f0f0f0", // Исправляем цвет фона
+                                backgroundColor: "#f0f0f0",
                             }}
                         />
                     </div>
@@ -134,7 +134,7 @@ const Login = () => {
                                 border: "none",
                                 borderRadius: "0.375rem",
                                 outline: "none",
-                                backgroundColor: "#f0f0f0", // Исправляем цвет фона
+                                backgroundColor: "#f0f0f0",
                             }}
                         />
                     </div>
