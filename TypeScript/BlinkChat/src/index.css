@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* Убираем скролл на уровне body и html */
+}
+
+#root {
+    height: 100%;
+}
