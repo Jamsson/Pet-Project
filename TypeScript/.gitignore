@@ -1,0 +1,12 @@
+# Ignoring node_modules directory
+node_modules/
+
+# Optional: Ignore logs and environment files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+
+# Ignore build artifacts
+dist/
+build/
