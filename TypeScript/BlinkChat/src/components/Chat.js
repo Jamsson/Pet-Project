@@ -72,7 +72,7 @@ const Chat = ({ messages, newMessage, setNewMessage, sendMessage, user, friend }
                     left: 0,
                     right: 0,
                     padding: "1rem",
-                    overflowY: "auto", // Включаем прокрутку
+                    overflowY: "auto",
                     scrollbarWidth: "none",
                     "-ms-overflow-style": "none",
                 }}
@@ -163,7 +163,7 @@ const Chat = ({ messages, newMessage, setNewMessage, sendMessage, user, friend }
                     display: "flex",
                     alignItems: "center",
                     zIndex: 5,
-                    height: "60px", // Явно задаём высоту поля ввода
+                    height: "60px",
                     boxSizing: "border-box",
                 }}
             >
