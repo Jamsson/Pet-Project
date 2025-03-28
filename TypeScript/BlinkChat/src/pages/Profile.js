@@ -14,7 +14,7 @@ const Profile = () => {
     const [loading, setLoading] = useState(false);
     const [isGeneratingId, setIsGeneratingId] = useState(false);
 
-    const generateNumericId = async (uid) => { // Добавляем параметр uid
+    const generateNumericId = async (uid) => { 
         let newId;
         let isUnique = false;
         let attempts = 0;
@@ -29,7 +29,7 @@ const Profile = () => {
 
             if (!snapshot.exists()) {
                 await set(idRef, true);
-                const numericIdToUidRef = ref(database, `numericIdToUid/${newId}/${uid}`); // Используем переданный uid
+                const numericIdToUidRef = ref(database, `numericIdToUid/${newId}/${uid}`);
                 await set(numericIdToUidRef, true);
                 isUnique = true;
             }
