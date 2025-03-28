@@ -1,1 +1,0 @@
-# p1ex3_Zakharov
