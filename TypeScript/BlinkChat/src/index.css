@@ -8,7 +8,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden; /* Убираем скролл на уровне body и html */
+    overflow: hidden;
 }
 
 #root {
