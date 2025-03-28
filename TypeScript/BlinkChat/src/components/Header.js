@@ -1,4 +1,3 @@
-// components/Header.js
 import React from "react";
 
 const Header = ({ isSearchOpen, setIsSearchOpen, searchId, setSearchId, handleKeyPress, handleClearSearch }) => {
@@ -56,8 +55,8 @@ const Header = ({ isSearchOpen, setIsSearchOpen, searchId, setSearchId, handleKe
                 <div
                     style={{
                         position: "relative",
-                        width: "80%", // Уменьшаем ширину поля, чтобы оно не занимало весь контейнер
-                        margin: "0 auto", // Центрируем поле
+                        width: "80%",
+                        margin: "0 auto",
                     }}
                 >
                     <input
@@ -68,12 +67,12 @@ const Header = ({ isSearchOpen, setIsSearchOpen, searchId, setSearchId, handleKe
                         placeholder="Введите 10-значный ID друга"
                         style={{
                             width: "100%",
-                            padding: "0.5rem 2.5rem 0.5rem 0.5rem", // Увеличиваем правый отступ, чтобы текст не перекрывал крестик
+                            padding: "0.5rem 2.5rem 0.5rem 0.5rem",
                             border: "1px solid #ddd",
                             borderRadius: "0.375rem",
                             fontSize: "0.875rem",
                             height: "30px",
-                            boxSizing: "border-box", // Учитываем padding в общей ширине
+                            boxSizing: "border-box",
                         }}
                     />
                     {searchId && (
@@ -81,9 +80,9 @@ const Header = ({ isSearchOpen, setIsSearchOpen, searchId, setSearchId, handleKe
                             onClick={handleClearSearch}
                             style={{
                                 position: "absolute",
-                                right: "0.5rem", // Крестик в самом конце поля
+                                right: "0.5rem",
                                 top: "50%",
-                                transform: "translateY(-50%)", // Центрируем крестик по вертикали
+                                transform: "translateY(-50%)",
                                 background: "none",
                                 border: "none",
                                 cursor: "pointer",
