@@ -1,0 +1,101 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "MotorcycleDealership.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/MotorcycleDealership.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MotorcycleDealership.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MotorcycleDealership.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MotorcycleDealership.Domain/MotorcycleDealership.Domain.csproj",
+      "msbuildProject": "../MotorcycleDealership.Domain/MotorcycleDealership.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "MotorcycleDealership.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/jamsson/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/jamsson/Документы/MotorcycleDealership/MotorcycleDealership.Application/MotorcycleDealership.Application.csproj",
+      "projectName": "MotorcycleDealership.Application",
+      "projectPath": "/home/jamsson/Документы/MotorcycleDealership/MotorcycleDealership.Application/MotorcycleDealership.Application.csproj",
+      "packagesPath": "/home/jamsson/.nuget/packages/",
+      "outputPath": "/home/jamsson/Документы/MotorcycleDealership/MotorcycleDealership.Application/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/jamsson/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "/home/jamsson/Документы/MotorcycleDealership/MotorcycleDealership.Domain/MotorcycleDealership.Domain.csproj": {
+              "projectPath": "/home/jamsson/Документы/MotorcycleDealership/MotorcycleDealership.Domain/MotorcycleDealership.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.4, 9.0.4]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/var/run/host/usr/share/dotnet/sdk/9.0.105/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

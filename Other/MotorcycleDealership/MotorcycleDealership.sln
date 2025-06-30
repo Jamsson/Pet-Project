@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorcycleDealership.Domain", "MotorcycleDealership.Domain\MotorcycleDealership.Domain.csproj", "{44E927B4-2818-4AF3-AD72-46087A41BE3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorcycleDealership.Application", "MotorcycleDealership.Application\MotorcycleDealership.Application.csproj", "{E97D8B4D-51EA-4D82-87DA-C343933AD767}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorcycleDealership.Infrastructure", "MotorcycleDealership.Infrastructure\MotorcycleDealership.Infrastructure.csproj", "{1DBAB660-1A5D-4BCE-9006-135B606D4632}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorcycleDealership.API", "MotorcycleDealership.API\MotorcycleDealership.API.csproj", "{EC1B115D-003F-4DAF-B31C-B7417A992AA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44E927B4-2818-4AF3-AD72-46087A41BE3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E927B4-2818-4AF3-AD72-46087A41BE3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E927B4-2818-4AF3-AD72-46087A41BE3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E927B4-2818-4AF3-AD72-46087A41BE3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E97D8B4D-51EA-4D82-87DA-C343933AD767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E97D8B4D-51EA-4D82-87DA-C343933AD767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E97D8B4D-51EA-4D82-87DA-C343933AD767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E97D8B4D-51EA-4D82-87DA-C343933AD767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DBAB660-1A5D-4BCE-9006-135B606D4632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DBAB660-1A5D-4BCE-9006-135B606D4632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DBAB660-1A5D-4BCE-9006-135B606D4632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DBAB660-1A5D-4BCE-9006-135B606D4632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC1B115D-003F-4DAF-B31C-B7417A992AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC1B115D-003F-4DAF-B31C-B7417A992AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC1B115D-003F-4DAF-B31C-B7417A992AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC1B115D-003F-4DAF-B31C-B7417A992AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

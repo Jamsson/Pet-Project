@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "N/dCKosRFZE=",
+  "success": true,
+  "projectFilePath": "/home/jamsson/Документы/MotorcycleDealership/MotorcycleDealership.Application/MotorcycleDealership.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/jamsson/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.4/microsoft.aspnetcore.app.ref.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
